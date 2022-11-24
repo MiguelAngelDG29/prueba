@@ -1,0 +1,23 @@
+.estilo-caja-logo{
+    float:left; 
+    width: 50%; 
+    height: 200px; 
+    text-align: center;
+}
+.estilo-caja-logo2{
+    text-align: left;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+.color1{
+    color:crimson;
+}
+.color2{
+    color:cornflowerblue;
+}
+#menu{
+    text-align:center;
+}
+    

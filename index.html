@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo de la pagina</title>
     <link rel="stylesheet" href="/estilos/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Dosis:wght@300&family=Lora:wght@400;500&family=Montserrat+Alternates:wght@300&family=Mulish:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--header se va a colocar contenido logos titulo menu-->
-    <header style="height: 200px; width: 100%;">
+    <header>
         <!--caja para colocar logo-->
         
         <div class="estilo-caja-logo">
@@ -17,27 +21,25 @@
                 <img src="/img/imagen1.png" />
             </a>
         </div>
-
-
-        
         <!--caja para colocar titulo-->
         <!--<div style="float:left; width: 50%; height: 200px; ">-->
         <div class="estilo-caja-logo estilo-caja-logo2">
             <h1 class="color1">BIBLIOTECA G05</h1>
         </div>
+        <!--estilo para el menu-->
         <nav id="menu" >
             <ul>
-                <li style="display:inline-table"><a href="#">Inicio</a></li>
-                <li style="display:inline-table"><a href="#">Sobre nosotros</a></li>
-                <li style="display:inline-table"><a href="#">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <br />
     <!--formularios , tablas -->
     <main style="text-align:center" id="caja-principal">
-        <h1 class="color2" id="titulo-formulario">Formulario - crear libros</h1>
-        <form>
+        <h1 class="color2" id="titulo-formulario">Crear libros</h1>
+        <form class="formulario">
             <label>Nombre Libro</label>
             <input type="week" id="nombre_libro" name="nombre_libro" />
             <br /><br />
@@ -49,16 +51,14 @@
             </select>
             <br /><br />
 
-            <input type="submit" value="Guardar" />
-            <button>Modificar</button>
-            
-
+            <input class="boton_guardar" type="submit" value="Guardar" />
+            <input class="boton_guardar" type="submit" value="Modificar" />            
         </form>
     </main>
     <br /><br /><br />
 
 
-        <table style="margin-left:auto;margin-right:auto">
+        <table>
             <thead>
               <tr>
                 <th>Header content 1</th>
@@ -82,10 +82,36 @@
 
 
     <!--contenido a nivel institucional o corporativo-->
+    <br /><br /><br />
+
     <footer>
+          <div class="caja_footer1">
+              <div class="caja_superior">
+                  <div class="caja_superior1">
+                      <h3>Attractions</h3>
+                  </div>
+                  <div class="caja_superior2"></div>
+              </div>
+
+              <div class="caja_media">
+                <div class="caja_media1">
+
+                </div>
+                <div class="caja_media2">
+                  
+                </div>
+              </div>
+          </div>
+          <div class="caja_footer2">
+              
+          </div>
+          <div class="caja_footer3">
+
+
+          </div>
 
     </footer>
 
-
+    <br /><br /><br />
 </body>
 </html>

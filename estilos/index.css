@@ -1,12 +1,4 @@
-.estilo-caja-logo{
-    float:left; 
-    width: 50%; 
-    height: 200px; 
-    text-align: center;
-}
-.estilo-caja-logo2{
-    text-align: left;
-}
+
 body{
     font-family: Arial, Helvetica, sans-serif; 
 
@@ -17,7 +9,147 @@ body{
 .color2{
     color:cornflowerblue;
 }
+
+/*header*/
+header{
+    height: 200px; 
+    width: 100%;
+}
+
+.estilo-caja-logo{
+    float:left; 
+    width: 50%; 
+    height: 150px; 
+    text-align: center;
+}
+
+.estilo-caja-logo2{
+    text-align: left;
+}
+
 #menu{
     text-align:center;
 }
+
+li{
+    display:inline-table;
+    width: 160px;
+    height: 40px;
+    background-color: orange;
     
+    /*padding-top: 10px;    */
+
+}
+
+li a{
+    text-decoration: none;
+    line-height: 40px;
+    color:white;
+}
+
+li a:hover{
+    color:cornflowerblue;
+}
+
+/*main - formulario*/
+main{
+    text-align:center;
+}
+
+.formulario{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+}
+label{
+    display: inline-block;
+    padding-left: 5%;
+    width: 30%;
+}
+
+input, select{
+    width: 58%;
+}
+
+.boton_guardar{
+    width: 49%;
+    height: 30px;
+    background-color: orange;      
+    color:white;
+    border-color: orange; 
+}
+
+.boton_guardar:hover{
+    color:cornflowerblue;
+}
+
+
+/*tabla*/
+table{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+table, th, tr, td{  
+    border: 1px solid #000;
+}
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: deepskyblue;
+}
+
+.caja_footer1{
+    width: 33%;
+    height: 220px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.caja_superior{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.caja_superior1{
+    width: 70%;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+}
+.caja_superior2{
+    width: 29%;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+}
+
+.caja_media{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.caja_media1{
+    width: 49%;
+    height: 120px;
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+}
+.caja_media2{
+    width: 49%;
+    height: 120px;
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+}
+h3{
+    font-family: 'Lora', serif;
+}
+
+

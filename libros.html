@@ -10,20 +10,101 @@
     <title>Ejercicio Bootstrap</title>
     <link rel="stylesheet" href="/estilos/libros.css">
 </head>
-<body>
+<body>  
     <div class="container">
         <div class="row">
-            <div class="caja1">
-                1
+            <div class="col-12 col-md-6 caja_logo">
+                <img src="/img/imagen1.png" />
             </div>
-            <div class="caja2">
-                2
+            <div class="col-12 col-md-6 caja_titulo">
+                <h1 class="color1">BIBLIOTECA G05</h1>
             </div>
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-primary justify-content-center">
+                <!--<nav class="navbar navbar-dark justify-content-center" style="background-color: #e3f2fd;">-->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Active
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+
 
         </div>
     </div>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 caja_formulario1"></div>
+            <div class="col-12 col-md-6 caja_formulario2">
+                <h1 class="titulo_formulario" id="titulo-formulario">Crear libros</h1>
+                    <form class="formulario">
+                        <label class="form-label">Nombre Libro</label>
+                        <input class="form-control" type="text" id="nombre_libro" name="nombre_libro" />
 
+                        <label class="form-label">Autor</label>
+                        <select class="form-select" id="autor">
+                            <option value="1">Gabriel Garcia Marquez</option>
+                            <option value="2">Mario Beneedetti</option>
 
+                        </select>
+                        <br /><br />
+
+                        <input class="btn btn-primary botones_formulario" type="submit" value="Guardar" />
+                        <input class="btn btn-primary botones_formulario" type="submit" value="Modificar" />            
+                    </form>
+
+            </div>
+            <div class="col-12 col-md-3 caja_formulario3"></div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,31 @@
+.caja_menu1{
+    background-color: antiquewhite;
+    height: 100px;
+
+}
+.caja_menu2{
+    height: 100px;
+    background-color:cornflowerblue;
+    position: relative;
+
+}
+.caja_menu2 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.caja_menu2 h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.caja_menu3{
+    height: 100px;
+    background-color:darkturquoise;
+}

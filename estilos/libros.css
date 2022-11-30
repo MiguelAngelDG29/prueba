@@ -1,6 +1,51 @@
-.caja1{
-    background-color: aqua;
+.caja_logo{
+    background-color:white;
+    height: 160px;
+    position: relative;
 }
-.caja2{
-    background-color:blue;
+.caja_logo img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
+
+.caja_titulo{
+    background-color:white;
+    height: 160px;
+    position: relative;
+}
+.caja_titulo h1{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);   
+}
+
+.nav-link{
+    color:white;
+}
+
+/*formulario*/
+.caja_formulario1{
+    background-color:white
+}
+
+.caja_formulario2{
+    background-color:white;
+}
+
+.caja_formulario3{
+    background-color:white;
+}
+
+.titulo_formulario{
+    text-align: center;
+}
+
+.botones_formulario{
+    width: 49%;
+}
+/*fin formulario*/

@@ -1,11 +1,16 @@
+
+.caja_logo{
+    margin-top: 150px;
+}
+
 .caja_menu1{
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     height: 100px;
 
 }
 .caja_menu2{
     height: 100px;
-    background-color:cornflowerblue;
+   /* background-color:cornflowerblue;*/
     position: relative;
 
 }
@@ -27,5 +32,31 @@
 
 .caja_menu3{
     height: 100px;
-    background-color:darkturquoise;
+    /*background-color:darkturquoise;*/
+}
+
+.caja_menu4{
+   /*background-color:aqua;*/
+}
+
+.caja_menu5{
+    /*background-color:dodgerblue;*/
+    text-align: center;
+}
+
+.caja_menu6{
+   /* background-color: lightgoldenrodyellow;*/
+}
+
+.btn_login{
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 640px){
+    .caja_logo{
+        margin-top: 20px;
+    }
+    
+    
 }

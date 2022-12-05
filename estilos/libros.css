@@ -48,4 +48,10 @@
 .botones_formulario{
     width: 49%;
 }
+
+.centrar_texto{
+    text-align: center;
+    color:crimson;
+
+}
 /*fin formulario*/

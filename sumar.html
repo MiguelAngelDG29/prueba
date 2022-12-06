@@ -56,15 +56,21 @@
                     <form class="formulario" onsubmit="return false">
                         <label class="form-label">Numero 1</label>
                         <input class="form-control" type="number" id="numero1" name="numero1" />
+                        <div id="validar_numero1" class="invalid-feedback">
+                        </div>
 
                         <label class="form-label">Numero 2</label>
                         <input class="form-control" type="number" id="numero2" name="numero2" />
+                        <div id="validar_numero2" class="invalid-feedback">
+                        </div>
+
                         <br /><br />
 
-                        <input class="btn btn-primary botones_formulario" type="submit" value="Sumar" onclick="Sumar()" />
+                        <input class="btn btn-primary botones_formulario" type="submit" value="Sumar" onclick="Sumar2()" />
                         <input class="btn btn-primary botones_formulario" type="submit" value="Modificar" />            
                     </form>
-
+                 <br />   
+                <div id="caja_resultado" class="p-3 mb-2 bg-warning text-dark"></div>
             </div>
             <div class="col-12 col-md-3 caja_formulario3"></div>
         </div>
